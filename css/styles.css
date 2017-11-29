@@ -4,6 +4,7 @@
  box-sizing:border-box;
  border:1px dashed #000;
 }
+
 .columns {
  min-height: 100px;
 }
@@ -16,6 +17,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Play', sans-serif;
 }
 
 /*.logo {
@@ -47,12 +49,33 @@
   position: relative;
 }
 
+.hero-image h1 {
+  text-align: center;
+  color: black;
+}
+
 .header {
   position: absolute;
   text-align: center;
   z-index: 1;
   top: 350px;
-  left: 350px;
-  color: white;
+  left: 500px;
+  padding: 10px;
 
+}
+
+.header:nth-child(2n) {
+  display: block;
+  background: #fff;
+  opacity: 0.4;
+}
+
+.gift {
+  width: 95vw;
+  font-size: 4em;
+  text-align: center;
+  color: gray;
+  line-height: 1em;
+  padding: 5px;
+  
 }
