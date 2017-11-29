@@ -1,0 +1,58 @@
+/*For testing only */
+
+*:not(body):not(html) {
+ box-sizing:border-box;
+ border:1px dashed #000;
+}
+.columns {
+ min-height: 100px;
+}
+
+/* End for testing */
+/*Standard CSS styles below*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*.logo {
+  position: relative;
+  float: left;
+}*/
+
+.navigation img {
+  width: 5vw;
+}
+
+/*.menu-list {
+  position: relative;
+  float: right;
+}*/
+
+.menu-list ul {
+  list-style: none;
+}
+
+.menu-list ul li {
+  display: inline;
+  font-size: 1vw;
+  padding: 3px;
+  margin-right: 1vw;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  top: 350px;
+  left: 350px;
+  color: white;
+
+}
