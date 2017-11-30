@@ -20,19 +20,13 @@
   font-family: 'Play', sans-serif;
 }
 
-/*.logo {
-  position: relative;
+.logo img {
   float: left;
-}*/
+}
 
 .navigation img {
   width: 5vw;
 }
-
-/*.menu-list {
-  position: relative;
-  float: right;
-}*/
 
 .menu-list ul {
   list-style: none;
@@ -45,37 +39,96 @@
   margin-right: 1vw;
 }
 
-.hero-image {
-  position: relative;
-}
-
 .hero-image h1 {
   text-align: center;
-  color: black;
+  color: white;
+  font-size: 60px;
+  padding-top: 200px;
+
 }
 
 .header {
-  position: absolute;
   text-align: center;
-  z-index: 1;
-  top: 350px;
-  left: 500px;
-  padding: 10px;
-
+  background-image: url("../img/space.gif");
+  width: 100vw;
+  height: 50vh;
 }
 
-.header:nth-child(2n) {
+.header ul {
+  list-style: none;
+  display: inline;
+}
+
+.header ul li {
+  float: left;
+  margin-right: 10px;
+}
+
+#opacity {
+  width: 55vw;
+  height: 2vh;
+  margin: 1vh auto;
+  padding: 5vw;
+  /*background-color: yellow;*/
+  /*background: #fff;
+  opacity: 0.4;*/
+  display: block;
+}
+
+/*.header:nth-child(2n) {
   display: block;
   background: #fff;
   opacity: 0.4;
-}
+}*/
 
 .gift {
+  clear: both;
   width: 95vw;
-  font-size: 4em;
+  height: 15vh;
+  font-size: 2em;
   text-align: center;
   color: gray;
   line-height: 1em;
   padding: 5px;
-  
+  margin: 30px;
+}
+
+.illusion {
+  width: 95vw;
+  background-color: #4a90e2;
+  padding: 5px;
+}
+
+.illusion-left {
+  font-size: 4em;
+  color: white;
+  font-weight: bold;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.tent {
+  width: 95vw;
+  background-color: #efefef;
+}
+
+.tent-left {
+  font-size: 4em;
+  text-align: center;
+  color: gray;
+  line-height: 1em;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.tent-right {
+  float: right;
+}
+
+@media screen and (min-width: 250px) and (max-width: 767px) {
+  body {
+    background-color: green;
+  }
+
 }

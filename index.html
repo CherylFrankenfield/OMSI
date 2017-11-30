@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -41,35 +41,34 @@
         </nav>
       </div> <!--navigation div-->
       <div class="hero-image">
-        <div class="d-flex justify-content-center">
-            <h1>Everyday Encounters With Science</h1>
-        </div>
-        <img src="img/space.gif" class="img-fluid" alt="image of twinkling stars">
         <div class="header">
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              What do you want to see?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <button class="dropdown-item" type="button">Featured Exhibits</button>
-              <button class="dropdown-item" type="button">Labs</button>
-              <button class="dropdown-item" type="button">Planetarium</button>
-              <button class="dropdown-item" type="button">Submarine</button>
-              <button class="dropdown-item" type="button">Events</button>
-              <button class="dropdown-item" type="button">Theater</button>
-            </div>
-          </div> <!--dropdown div-->
-          <div class="dropdown2">
-            <button class="btn btn-secondary dropdown-toggle2" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              When are you visiting?
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <button class="dropdown-item" type="button">Today</button>
-              <button class="dropdown-item" type="button">Select Dates</button>
-              <button class="dropdown-item" type="button">Clear Dates</button>
-            </div>
-          </div>
-          <button type="button" class="btn btn-danger btn-lg">Danger</button>
+          <h1>Everyday Encounters With Science</h1>
+          <ul id ="opacity">
+            <li><div class="dropdown">
+              <button class="btn-lg btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                What do you want to see?
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Featured Exhibits</button>
+                <button class="dropdown-item" type="button">Labs</button>
+                <button class="dropdown-item" type="button">Planetarium</button>
+                <button class="dropdown-item" type="button">Submarine</button>
+                <button class="dropdown-item" type="button">Events</button>
+                <button class="dropdown-item" type="button">Theater</button>
+              </div>
+            </div></li> <!--dropdown div-->
+            <li><div class="dropdown2">
+              <button class="btn-lg btn-secondary dropdown-toggle2" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                When are you visiting?
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Today</button>
+                <button class="dropdown-item" type="button">Select Dates</button>
+                <button class="dropdown-item" type="button">Clear Dates</button>
+              </div>
+            </div></li>
+            <li><button type="button" class="btn btn-danger btn-lg">Explore Possibilities</button></li>
+          </ul>
 
         </div> <!--header div-->
       </div> <!--hero div-->
@@ -78,8 +77,28 @@
         <p>Give the gift that lasts all year. All levels of OMSI membership are now 15% off for a limited time!</p>
         <button type="button" class="btn btn-danger btn-lg">Learn More</button>
       </div>
-<!--illustion exhibit Section -->
-
+<!--illusion exhibit Section -->
+      <div class="illusion col-md-12">
+        <div class="illusion-left col-md-6">
+          <h2>Illusion: Nothing Is As It Seems</h2>
+          <p>Should you always believe what you can see?</p>
+          <button type="button" class="btn btn-light btn-lg">Learn More</button>
+        </div>
+        <div class="illusion-right col-md-6">
+          <img src="https://omsi.edu/sites/default/files/illusion_featured2.png" alt="">
+        </div>
+      </div>
+<!--tent Section -->
+      <div class="tent col-md-12">
+        <div class="tent-left col-md-6">
+          <h2>Camps and Classes</h2>
+          <p>This summer, the world is your classroom.</p>
+          <button type="button" class="btn btn-light btn-lg">Discover Now</button>
+        </div>
+        <div class="tent-right col-md-6">
+          <img src="https://omsi.edu/sites/default/files/home_camps.png" alt="">
+        </div>
+      </div>
 
     </div> <!--container div-->
   </body>
